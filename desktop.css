@@ -1,0 +1,175 @@
+@media (min-width: 376px) {
+    @import url('https://fonts.google.com/specimen/Poppins');
+
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    header {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        width: 90%; 
+        margin: auto;
+        margin-top: 40px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    header .first {
+        font-weight: 100;
+        color: hsl(234, 12%, 34%);
+    }
+
+    header .second {
+        font-weight: 600;
+        color: hsl(234, 12%, 34%);
+    }
+
+    header .third {
+        font-weight: 200;
+        font-size: 15px;
+        width: 50%;
+        text-align: center;
+        line-height: 22px;
+        color: hsl(229, 6%, 66%);
+        margin-top: 25px;
+    }
+
+    main {
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        width: 80%;
+        flex-wrap: wrap;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .middle {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 22rem;
+        height: 13rem;
+        background-color: white;
+        padding: 20px;
+        line-height: 30px;
+        border: 4px solid white;
+        border-top-color: hsl(180, 62%, 55%);
+        border-radius: 5px;
+        box-shadow: 1px 5px 10px 5px rgb(236, 236, 236);
+    }
+
+    .left h4 {
+        font-size: 18px;
+        font-weight: 600;
+        color: hsl(234, 12%, 34%)
+    }
+
+    .left p {
+        font-size: 13px;
+        color: hsl(229, 6%, 66%);
+        line-height: 25px;
+        font-weight: 200;
+    }
+
+    .left img {
+        margin-top: 0.5rem;
+        left: 14rem;
+        position: relative;
+    }
+
+    .team {
+        width: 22rem;
+        height: 13rem;
+        background-color: white;
+        padding: 20px;
+        line-height: 30px;
+        border: 4px solid white;
+        border-top-color: hsl(0, 78%, 62%);
+        border-radius: 5px;
+        box-shadow: 1px 5px 10px 5px rgb(236, 236, 236);
+    }
+
+    .team h4 {
+        font-size: 18px;
+        color: hsl(234, 12%, 34%)
+    }
+
+    .team p {
+        font-size: 13px;
+        color: hsl(229, 6%, 66%);
+        line-height: 25px;
+    }
+
+    .team img {
+        margin-top: 0.5rem;
+        left: 14rem;
+        position: relative;
+    }
+
+    .karma {
+        width: 22rem;
+        height: 13rem;
+        background-color: white;
+        padding: 20px;
+        line-height: 30px;
+        border: 4px solid white;
+        border-top-color: hsl(34, 97%, 64%);
+        border-radius: 5px;
+        box-shadow: 1px 5px 10px 5px rgb(236, 236, 236);
+    }
+
+    .karma h4 {
+        font-size: 18px;
+        color: hsl(234, 12%, 34%)
+    }
+
+    .karma p {
+        font-size: 13px;
+        color: hsl(229, 6%, 66%);
+        line-height: 25px;
+    }
+
+    .karma img {
+        margin-top: 0.5rem;
+        left: 14rem;
+        position: relative;
+    }
+
+    .right {
+        width: 22rem;
+        height: 13rem;
+        background-color: white;
+        padding: 20px;
+        line-height: 30px;
+        border: 4px solid white;
+        border-top-color: hsl(212, 86%, 64%);
+        border-radius: 5px;
+        box-shadow: 1px 5px 10px 5px rgb(236, 236, 236);
+    }
+
+    .right h4 {
+        font-size: 18px;
+        color: hsl(234, 12%, 34%)
+    }
+
+    .right p {
+        font-size: 13px;
+        color: hsl(229, 6%, 66%);
+        line-height: 25px;
+    }
+
+    .right img {
+        margin-top: 0.5rem;
+        left: 14rem;
+        position: relative;
+    }
+}
